@@ -116,3 +116,13 @@
     margin-top: 30px;
     flex-wrap: wrap;
 }
+.sponser{
+    background-color: #F7F7F7;
+    padding: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 44%;
+    flex-wrap: wrap;
+    gap:70px;
+}

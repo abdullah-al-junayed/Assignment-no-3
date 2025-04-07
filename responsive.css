@@ -81,6 +81,7 @@
         text-align: center;
         width: auto;
         height: auto;
+        margin-top: 190px;
     }
     .Hero_ul{
         font-size: 19px;
@@ -92,11 +93,20 @@
         gap: 10px;
         background-color:#F3F3F399 ;
         backdrop-filter: blur(10px);
-        width: 252px;
+        width: 302px;
         height: 344px;
         cursor: pointer;
         border-radius: 6px;
-        margin-top: 20px;
+        margin-top: 50px;
+    }
+    .li_style:hover{
+        cursor: pointer;
+        transform: scaleX(1.05);
+        color: crimson;
+        transition: all ease-in-out 0.2s;
+        border: 1px solid rgb(56, 42, 42);
+        padding: 10px 70px;
+        
     }
     .Hero_option{
         display: flex;
@@ -106,5 +116,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 35px;
     }
   }
