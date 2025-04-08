@@ -71,7 +71,7 @@
 }
 .btn_1:hover{
     transition: all ease-in-out 0.1s ;
-    transform: scaleX(1.05);
+    transform: scale(1.05);
 }
 .header_section_untill_hover{
     display: none;
@@ -129,6 +129,10 @@
 }
 
 /* what we offer section */
+.offer{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
 .offer ul{
     list-style: none;
     display: flex;
@@ -143,4 +147,32 @@
 .offer ul li:hover{
   transform: scale(1.05);
 
+}
+
+/* destination */
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    gap: 20px;
+    overflow: hidden;
+    height: 745px;
+    margin-bottom: 100px;
+  }
+
+.grid-container h3{
+    font-size: 18px; 
+    text-transform: uppercase; 
+    color: #DF6951;
+    margin-top: 240px;
+}
+.grid-container h1{
+    width: 583px; 
+    font-size: 50px;
+     color: #181E4B;
+}
+.grid-container p{
+    width: 583px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
 }
