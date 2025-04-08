@@ -163,3 +163,31 @@
         line-height: 26px;
     }
   }
+  /* booking */
+  @media only screen and (max-width: 888px) {
+    .Booking{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .div1{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .div1 h1{
+        width: auto;
+    }
+    .div1 div{
+        display: flex;
+        flex-direction: column;
+       justify-self: center;
+        gap: 30px;
+        width: 300px;
+    }
+    .div2{
+        display: none;
+    }
+
+  }
