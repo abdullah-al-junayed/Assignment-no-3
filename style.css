@@ -20,6 +20,7 @@
     justify-content: space-around;
     padding-top: 66px;
     cursor: pointer;
+   
 }
 .header_list{
     list-style: none;
@@ -125,4 +126,21 @@
     opacity: 44%;
     flex-wrap: wrap;
     gap:70px;
+}
+
+/* what we offer section */
+.offer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.offer_li{
+    margin-top: 250px;
+}
+.offer ul li:hover{
+  transform: scale(1.05);
+
 }
