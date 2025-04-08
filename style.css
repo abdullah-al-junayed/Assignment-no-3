@@ -201,3 +201,13 @@
     flex-direction: column;
     gap: 30px;
 }
+/* banner */
+.banner{
+    background-image: url(Images/Sepratir.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 399px;
+    width: auto;
+    margin-bottom: 200px;
+}
