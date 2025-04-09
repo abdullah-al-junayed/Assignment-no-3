@@ -340,6 +340,7 @@ flex-direction: column;
     background-repeat: no-repeat;
     height: 768px;
     margin-top: 100px;
+   
 }
 .testimonial{
     display: flex;
@@ -351,4 +352,61 @@ flex-direction: column;
 
 .btn_image{
     display: none;
+}
+/* footer section */
+.footer{
+    background-image: url(Images/Footer\ img.png);
+    background-position: right;
+    padding: 60px 378px ;
+    background-repeat: no-repeat;
+    height: 484px;
+    width: auto;
+    
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.div_1 p{
+width: 213px;
+color: #757095;
+line-height: 28px;
+letter-spacing: -2%;
+}
+.div_1 div{
+    display: flex;
+    gap: 10px;
+}
+.div_2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div_2 ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: #181433;
+    font-weight: bolder;
+    gap: 26px;
+}
+.div_3 div{
+    background-color: #EEEEFF;
+    border: none;
+    border-radius: 10px;
+}
+.div_3 div input{
+    border: none;
+    padding:0px 20px ;
+    color: #181433;
+    background-color: #EEEEFF;
+    opacity: 20%;
+
+
+}
+.div_3 p{
+    opacity: 50%;
+    color: #181433;
 }

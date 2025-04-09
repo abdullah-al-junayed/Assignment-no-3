@@ -273,3 +273,30 @@
         padding-top: 300px;
     }
 }
+
+/* footer */
+@media only screen and (max-width: 1150px) {
+    .footer{
+        background-image: url(Images/Footer\ img.png);
+        background-position: right;
+        padding: 60px 0px ;
+        background-repeat: no-repeat;
+        height: 484px;
+        width: auto;
+        
+    }
+}
+@media only screen and (max-width: 650px) {
+    .footer1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+    .div_1 div{
+        justify-content: center;
+    }
+}
