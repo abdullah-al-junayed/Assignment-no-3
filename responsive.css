@@ -236,7 +236,7 @@
     display: none;
 }}
 
-/* 2nd banner */
+/* Package */
 @media only screen and (max-width: 1000px) {
     .Package{
         padding-left: 0px;
@@ -254,11 +254,22 @@
         gap: 30px;
     }
 }
+
 @media only screen and (max-width: 500px) {
     .card1{
         width: 300px;
     }
     .Package{
         margin-top: 1000px;
+    }
+}
+/* About us */
+@media only screen and (max-width: 800px) {
+
+    .testimonial{
+       display: none;
+    }
+    .About_us_items{
+        padding-top: 300px;
     }
 }
