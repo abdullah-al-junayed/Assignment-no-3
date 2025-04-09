@@ -211,3 +211,43 @@
     width: auto;
     margin-bottom: 200px;
 }
+/* Promotion */
+.promotion{
+    background-image: url(Images/Illustration_New2.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    height: 751px;
+    width: auto;
+    margin-right: 200px;
+    padding: 160px 300px;
+    
+    
+}
+.promotion h3{
+    font-size: 18px;
+    color: #DF6951;
+    text-transform: uppercase;
+}
+.promotion h1{
+    font-size: 50px;
+    color: #181E4B;
+    width: 639px;
+
+}
+.promotion p{
+    font-size: 16px;
+    width: 574px;
+    line-height: 26px;
+}
+.promotion ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.promotion ul li:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border-radius:20px ;
+}

@@ -191,8 +191,41 @@
     }
 
   }
+  /* banner */
   @media only screen and (max-width: 1200px) {
     .banner{
         display: none;
     }
+  }
+  /* Promotion */
+  @media only screen and (max-width: 1300px) {
+    .promotion{
+        background-image: none;
+        height: 751px;
+        width: auto;
+        margin-right: 0px;
+        padding: 50px;
+        text-align: center;
+        margin-top: 100px;
+
+    }
+    .promotion h1{
+        font-size: 50px;
+        color: #181E4B;
+        width: auto;
+    
+    }
+    .promotion p{
+        font-size: 16px;
+        width: auto;
+        line-height: 26px;
+    }
+    .promotion ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        
+    
   }
