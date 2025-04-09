@@ -229,3 +229,36 @@
         
     
   }
+}
+/* 2nd banner */
+@media only screen and (max-width: 1700px) {
+.banner_grids{
+    display: none;
+}}
+
+/* 2nd banner */
+@media only screen and (max-width: 1000px) {
+    .Package{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .banner_image{
+        width: 292px;
+        height: 212px;
+    } 
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .card1{
+        width: 300px;
+    }
+    .Package{
+        margin-top: 1000px;
+    }
+}

@@ -251,3 +251,84 @@
     cursor: pointer;
     border-radius:20px ;
 }
+/*  2nd banner*/
+.banner_grids{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+    height: 399px;
+}
+.banner1{
+    background-image: url(Images/Explore\ Nature.png);    
+}
+.banner2{
+    background-image: url(Images/Explore\ Cities.png);
+}
+.btn2{
+    width: 176px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.btn2:hover{
+    transform: scale(1.05);
+}
+.btn_align{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+
+}
+/* trending package */
+.Package{
+    padding-left: 277px;
+    padding-right: 277px;
+    overflow: hidden;
+}
+.Card1{
+    width: 300px;
+display: flex;
+flex-direction: column;
+}
+.flag{
+    width: 196px;
+    height: 196px;
+    margin-top: -80px;
+}
+.day_people{
+    display: flex;
+    align-items: center;
+    color: #7D7D7D;
+    gap: 30px;
+    margin-top: -50px;
+}
+.div_align{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_align img{
+    width: 92px;
+    height: 16px;
+}
+.dollar{
+    display: flex;
+    align-items: center;
+    gap :30px;
+}
+.card_paragraph{
+    line-height: 25px;
+    font-size: 13px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
